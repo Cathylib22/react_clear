@@ -16,7 +16,19 @@ export default function PhoneView() {
           style={{ width: "450px", height: "600px" }}
           className="img-phone"
         />
-        <h1>Neil Klein</h1>
+        <div className="data">
+          <h1>Neil Klein</h1>
+        </div>
+        <section>
+          <div className="am-who">
+            <h4>
+              <strong>T:</strong> (+1)(562)822-0995
+            </h4>
+            <h4>
+              <strong>E:</strong> neilk@mckassonklein.com
+            </h4>
+          </div>
+        </section>
       </div>
       <div
         data-gjs-highlightable="true"

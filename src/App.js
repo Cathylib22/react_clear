@@ -7,6 +7,7 @@ import BusinessCard from "./component/BusinessCard";
 import Footer from "./component/Footer";
 import PhoneView from "./component/PhoneView";
 import CaseBrief from "./component/CaseBrief";
+import SkillList from "./component/SkillList";
 import { PostProvider, PostContext } from "./component/PostContext";
 
 function App() {
@@ -14,8 +15,8 @@ function App() {
     <div className="card">
       <div className="data">
         <PhoneView />
+        <SkillList />
         <CaseBrief />
-        <Details />
         <BusinessCard />
         <Footer />
       </div>
@@ -32,26 +33,6 @@ function Details() {
         </div>
       </section>
     </>
-  );
-}
-function SkillList() {
-  return (
-    <div className="profile-summary">
-      <Skill skill="FORTRAN" emoji="😃" color="red" />
-      <Skill skill="C++" emoji="💪" color="blue" />
-      <Skill skill="C" emoji="🦾" color="green" />
-      <Skill skill="Python" emoji="👍" color="yellow" />
-      <Skill skill="React" emoji="✊" color="orange" />
-    </div>
-  );
-}
-
-function Skill(props) {
-  return (
-    <div className="skill" style={{ backgroundColor: props.color }}>
-      <span>{props.skill}</span>
-      <span>{props.emoji}</span>
-    </div>
   );
 }
 

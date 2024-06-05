@@ -405,7 +405,6 @@
     font-family:Helvetica, serif;
   }
   .flex-title{
-    margin-bottom:15px;
     font-size:2em;
     text-align:center;
     font-weight:700;

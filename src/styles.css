@@ -23,15 +23,6 @@ body {
   padding-top: 24px;
 }
 
-/* Skill List */
-.skill-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 16px;
-}
-
 /* Submit Button */
 .sub-btn {
   width: 100%;
@@ -153,24 +144,36 @@ body {
   margin: 0 10px;
 }
 
+/* Skill List */
+.skill-list {
+  font-size: 1.05rem;
+  line-height: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 /* Profile Summary */
 .profile-summary {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.4;
-  background-color: #44403c;
+  background-color: #1e3f5a;
   margin-bottom: 16px;
   padding: 16px 24px;
   letter-spacing: -1px;
   border-radius: 16px;
   display: flex;
+  flex-wrap: wrap;
   align-items: right;
   gap: 24px;
+  font-family: Helvetica, serif;
+  font-weight: bold;
 }
 
 /* Flex Section */
 .flex-sect {
-  background-color: #fafafa;
-  padding: 100px 0;
+  background-color: #6b8ba4;
+  padding: 70px 25px;
   font-family: Helvetica, serif;
 }
 .flex-title {
@@ -178,13 +181,13 @@ body {
   font-size: 2em;
   text-align: center;
   font-weight: 700;
-  color: #555;
+  color: #6b8ba4;
   padding: 5px;
 }
 .flex-desc {
   margin-bottom: 55px;
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.5);
+  color: #6b8ba4;
   text-align: center;
   padding: 5px;
 }
@@ -323,6 +326,15 @@ section {
   justify-content: space-around;
 }
 
+.am-who {
+  float: left;
+  padding: 7px;
+  width: 490px;
+  color: #1a1414;
+  font-weight: 100;
+  margin-top: 50px;
+}
+
 .am-content {
   float: left;
   padding: 7px;
@@ -436,7 +448,7 @@ section {
   padding: 20px 0;
   display: flex;
   justify-content: space-around;
-  /*flex-flow: wrap;*/
+  flex-flow: wrap;
 }
 
 .flashcard {
@@ -490,4 +502,11 @@ section {
   text-align: left;
   line-height: 30px;
   font-weight: 400;
+}
+
+/*container setting*/
+.container-width {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0 auto;
 }
