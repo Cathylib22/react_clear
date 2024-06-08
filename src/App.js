@@ -2,12 +2,12 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { useEffect, useState } from "react";
 import "./styles.css";
-import Advice from "./component/Advice";
 import BusinessCard from "./component/BusinessCard";
 import Footer from "./component/Footer";
 import PhoneView from "./component/PhoneView";
 import CaseBrief from "./component/CaseBrief";
 import SkillList from "./component/SkillList";
+import ContactMe from "./component/ContactMe";
 import { PostProvider, PostContext } from "./component/PostContext";
 
 function App() {
@@ -17,8 +17,7 @@ function App() {
         <PhoneView />
         <SkillList />
         <CaseBrief />
-        <BusinessCard />
-        <Footer />
+        <ContactMe />
       </div>
     </div>
   );

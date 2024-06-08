@@ -47,7 +47,7 @@ function NewSubscrib({ setSubscrib, setDataBase }) {
     }
   }
 }
-export default function Footer() {
+export default function ContactMe() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
@@ -70,12 +70,9 @@ export default function Footer() {
         <div className="footer-container">
           <div className="foot-lists">
             <div className="foot-list">
-              <div className="foot-list-title">About us</div>
-              <div className="foot-list-item">Contact</div>
-              <div className="foot-list-item">Events</div>
-              <div className="foot-list-item">Company</div>
-              <div className="foot-list-item">Jobs</div>
-              <div className="foot-list-item">Blog</div>
+              <div className="foot-list-title">About Me</div>
+              <div className="foot-list-item">Contacts</div>
+              <div className="foot-list-item">Publications</div>
             </div>
             <div className="foot-list">
               <div className="foot-list-title">Services</div>
@@ -83,17 +80,14 @@ export default function Footer() {
               <div className="foot-list-item">Partner</div>
               <div className="foot-list-item">Community</div>
               <div className="foot-list-item">Forum</div>
-              <div className="foot-list-item">Download</div>
-              <div className="foot-list-item">Upgrade</div>
             </div>
             <div className="clearfix"></div>
           </div>
           <div className="form-sub">
             <div className="foot-form-cont">
-              <div className="foot-form-title">Subscribe</div>
+              <div className="foot-form-title">Contact Me</div>
               <div className="foot-form-desc">
-                Subscribe to our newsletter to receive exclusive offers and the
-                latest news
+                Leave your info to receive exclusive update.
               </div>
               <input
                 type="text"
@@ -110,7 +104,7 @@ export default function Footer() {
                 onChange={(e) => setEmail(e.target.value)}
               />
               <button type="button" className="sub-btn" onClick={getSubmit}>
-                Submit
+                Send to Me!
               </button>
             </div>
           </div>
@@ -118,7 +112,9 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container-width">
-          <div className="made-with">made with CalcSim</div>
+          <div className="made-with">
+            Businees Development Solution by FindLaw, part of Thomson Reuters
+          </div>
           <div className="foot-social-btns">facebook twitter linkedin mail</div>
           <div className="clearfix"></div>
         </div>

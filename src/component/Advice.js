@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Advice() {
   const [advice, setAdvice] = useState("");
@@ -11,9 +11,9 @@ export default function Advice() {
     setCount((c) => c + 1);
   }
 
-  useEffect(function () {
+  useEffect(() => {
     getAdvice();
-  }, []);
+  }, []); // empty dependency array ensures this runs only once on mount
 
   return (
     <div>

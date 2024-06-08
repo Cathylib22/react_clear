@@ -10,25 +10,23 @@ export default function PhoneView() {
       className="am-container"
     >
       <div>
-        <img
-          src="exp1.jpg"
-          alt="Welcome Banner"
-          style={{ width: "450px", height: "600px" }}
-          className="img-phone"
-        />
-        <div className="data">
-          <h1>Neil Klein</h1>
+        <div className="am-who">
+          <img
+            src="exp1.jpg"
+            alt="Welcome Banner"
+            style={{ width: "450px", height: "600px" }}
+            className="img-phone"
+          />
+          <h1>
+            <strong> Neil Klein</strong>
+          </h1>
+          <h4>
+            <strong>T:</strong> (+1)(562)822-0995
+          </h4>
+          <h4>
+            <strong>E:</strong> neilk@mckassonklein.com
+          </h4>
         </div>
-        <section>
-          <div className="am-who">
-            <h4>
-              <strong>T:</strong> (+1)(562)822-0995
-            </h4>
-            <h4>
-              <strong>E:</strong> neilk@mckassonklein.com
-            </h4>
-          </div>
-        </section>
       </div>
       <div
         data-gjs-highlightable="true"
@@ -100,7 +98,8 @@ export default function PhoneView() {
           draggable="true"
           className="am-post"
         >
-          McKasson & Klein LLP
+          McKasson & Klein LLP®️ A boutique law firm established in 1998 located
+          in Irvine, CA, near the ports of Long Beach and Los Angeles
         </div>
       </div>
     </div>
