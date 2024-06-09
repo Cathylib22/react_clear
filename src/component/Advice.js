@@ -12,8 +12,13 @@ export default function Advice() {
   }
 
   useEffect(() => {
-    getAdvice();
-  }, []); // empty dependency array ensures this runs only once on mount
+    async function initialAdvice() {
+      const res = await fetch("https://api.adviceslip.com/advice");
+      const data = await res.json();
+      setAdvice(data.slip.advice);
+    }
+    initialAdvice();
+  }, []);
 
   return (
     <div>
