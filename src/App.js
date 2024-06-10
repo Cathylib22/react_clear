@@ -8,7 +8,6 @@ import PhoneView from "./component/PhoneView";
 import CaseBrief from "./component/CaseBrief";
 import SkillList from "./component/SkillList";
 import ContactMe from "./component/ContactMe";
-import { PostProvider, PostContext } from "./component/PostContext";
 
 function App() {
   return (
