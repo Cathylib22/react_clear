@@ -1,0 +1,88 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": 17806751
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": 98443197
+    },
+    {
+      "cityName": "Nijar",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-04-03T07:47:59.202Z",
+      "notes": "",
+      "position": {
+        "lat": "36.967508314568164",
+        "lng": "-2.13128394200588"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Irvine",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-11-23T05:12:37.000Z",
+      "notes": "New Start",
+      "position": {
+        "lat": "33.6774970449755",
+        "lng": "-117.82424926757814"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Dana Point",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-11-24T05:13:16.134Z",
+      "notes": "Where you are",
+      "position": {
+        "lat": "33.46495752653407",
+        "lng": "-117.7013397216797"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Newport Beach",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-11-26T02:10:16.972Z",
+      "notes": "close to Heaven",
+      "position": {
+        "lat": "33.616620655389106",
+        "lng": "-117.93136596679689"
+      },
+      "id": 98443202
+    }
+  ]
+}
